@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 body {
 	background: #fff;
 }
@@ -14,7 +19,7 @@ li {
 .wrap {
 	width: 1200px;
 	margin: 0 auto;
-	text-align: left;
+	/*text-align: left;*/
 }
 
 .center-block {
@@ -267,6 +272,7 @@ li {
 .column-today {
 	top: 42px;
 	position: relative;
+	clear: both;
 }
 
 .column-title:after {
@@ -383,12 +389,13 @@ li {
 
 .column-household-textlist {
 	width: 320px;
-	float: right;
+	/*float: right;*/
+	padding-left: 877px;
 	padding-top: 17px;
 }
 
 .column-household-textlist ul li {
-	float: right;
+	/*float: right;*/
 	display: block;
 	width: 320px;
 	height: 78px;
@@ -419,7 +426,6 @@ li {
 .column-like {
 	top: 100px;
 	position: relative;
-	height: 550px;
 }
 
 .column-like-content {
@@ -506,6 +512,8 @@ li {
 .footer {
 	height: 440px;
 	background-color: #FAFAFA;
+	position: relative;
+	top: 170px;
 }
 
 .footer-word-list {
