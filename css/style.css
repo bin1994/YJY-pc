@@ -374,8 +374,8 @@ li {
 	float: right;
 }
 
-.column-household .column-title .active {
-	color: #F87400;
+.active{
+	color: #F87400!important;
 	border-color: #929292;
 }
 

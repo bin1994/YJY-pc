@@ -25,3 +25,11 @@ $(document).ready(function() {
 	});
 
 });
+
+//家居生活部分点击改变右侧标签状态
+$(document).ready(function() {
+	$('.column-title-tag').click(function() {
+		$(this).addClass("active");
+		$(this).siblings().removeClass('active');
+	});
+});
