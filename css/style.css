@@ -211,9 +211,14 @@ li {
 	width: 313px;
 }
 
-.navbar-banner ul li img{
+.navbar-banner ul li img {
 	height: 157px;
-	
+}
+
+.navbar-banner ul li:last-child img {
+	top: -4px;
+	position: relative;
+	z-index: -1;
 }
 
 .column-life {
@@ -221,6 +226,8 @@ li {
 	width: 259px;
 	height: 341px;
 	background-color: #fafafa;
+	top: -4px;
+	position: relative;
 }
 
 .column-life .life-font {
@@ -270,7 +277,7 @@ li {
 	width: 234px;
 	height: 140px;
 	margin-left: 14px;
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .column-today {
@@ -336,7 +343,6 @@ li {
 	max-height: 178px;
 	max-width: 130px;
 	overflow: hidden;
-	
 }
 
 .column-today-content p {
@@ -354,7 +360,7 @@ li {
 	padding-top: 8px;
 }
 
-.banner-full{
+.banner-full {
 	width: 1200px;
 	overflow: hidden;
 }
@@ -374,7 +380,7 @@ li {
 	float: right;
 }
 
-.active{
+.active {
 	color: #F87400!important;
 	border-color: #929292;
 }
@@ -390,13 +396,13 @@ li {
 	padding-top: 17px;
 }
 
-.column-household-content .household-big-img{
+.column-household-content .household-big-img {
 	width: 438px;
 	height: 236px;
 	overflow: hidden;
 }
 
-.column-household-content .household-small-img{
+.column-household-content .household-small-img {
 	width: 219px;
 	height: 236px;
 	overflow: hidden;
@@ -531,7 +537,7 @@ li {
 	padding-left: 22px;
 	max-height: 105px;
 	min-height: 80px;
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 .column-like-content .box-bottom div {
@@ -621,7 +627,7 @@ li {
 	bottom: 10px;
 }
 
-.sidebar img{
+.sidebar img {
 	height: 35px;
 	width: 35px;
 	overflow: hidden;
@@ -666,6 +672,7 @@ li {
 	left: 258px;
 	overflow: hidden;
 	display: none;
+	z-index: 1;
 }
 
 .subitems a:hover {
@@ -726,10 +733,10 @@ li {
 	padding-right: 1px;
 	position: relative;
 	margin-right: -1px;
-	z-index: 1;
+	z-index: 2;
 }
 
-.items-hover{
+.items-hover {
 	background-color: #FAFAFA;
 	color: #F87400!important;
 	border: solid 1px #F87400;
@@ -739,3 +746,22 @@ li {
 	margin-right: -1px;
 	z-index: 1;
 }
+
+.slideBox .hd li {
+	background: #fff;
+	width: 24px;
+	height: 4px;
+	position: relative;
+	top: 322px;
+	margin-left: 5px;
+	float: right;
+	right: 280px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.slideBox .hd li.on{
+	opacity: 1;
+}
+
+
