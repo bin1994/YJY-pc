@@ -211,6 +211,11 @@ li {
 	width: 313px;
 }
 
+.navbar-banner ul li img{
+	height: 157px;
+	
+}
+
 .column-life {
 	float: right;
 	width: 259px;
@@ -247,6 +252,8 @@ li {
 	position: relative;
 	display: block;
 	top: 13px;
+	height: 24px;
+	overflow: hidden;
 	margin: 0 auto;
 }
 
@@ -259,14 +266,11 @@ li {
 	text-align: center;
 }
 
-.column-life .life-img {
-	position: relative;
-	left: 14px;
-	top: 21px;
-}
-
 .column-life .life-img img {
 	width: 234px;
+	height: 140px;
+	margin-left: 14px;
+    margin-top: 20px;
 }
 
 .column-today {
@@ -326,9 +330,13 @@ li {
 	float: left;
 }
 
-.column-today-content img {
+.column-today-img img {
 	padding-top: 27px;
 	padding-bottom: 20px;
+	max-height: 178px;
+	max-width: 130px;
+	overflow: hidden;
+	
 }
 
 .column-today-content p {
@@ -344,6 +352,11 @@ li {
 
 .column-today-content .banner-full {
 	padding-top: 8px;
+}
+
+.banner-full{
+	width: 1200px;
+	overflow: hidden;
 }
 
 .column-household {
@@ -375,6 +388,18 @@ li {
 	width: 880px;
 	float: left;
 	padding-top: 17px;
+}
+
+.column-household-content .household-big-img{
+	width: 438px;
+	height: 236px;
+	overflow: hidden;
+}
+
+.column-household-content .household-small-img{
+	width: 219px;
+	height: 236px;
+	overflow: hidden;
 }
 
 .column-household-content ul {
@@ -473,6 +498,8 @@ li {
 .column-like-content .box-left img {
 	padding-top: 49px;
 	padding-bottom: 36px;
+	max-height: 227px;
+	overflow: hidden;
 }
 
 .column-like-content .box-left div {
@@ -484,7 +511,10 @@ li {
 .column-like-content .box-top img {
 	float: left;
 	padding-top: 36px;
-	padding-left: 22px
+	padding-left: 22px;
+	max-height: 105px;
+	min-height: 80px;
+	overflow: hidden;
 }
 
 .column-like-content .box-top div {
@@ -498,7 +528,10 @@ li {
 .column-like-content .box-bottom img {
 	float: left;
 	padding-top: 36px;
-	padding-left: 22px
+	padding-left: 22px;
+	max-height: 105px;
+	min-height: 80px;
+	overflow: hidden;	
 }
 
 .column-like-content .box-bottom div {
@@ -586,6 +619,12 @@ li {
 	z-index: 5;
 	right: 5px;
 	bottom: 10px;
+}
+
+.sidebar img{
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
 }
 
 .sidebar ul {
