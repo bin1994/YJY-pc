@@ -613,3 +613,90 @@ li {
 .sidebar-msg.sidebar-flag {
 	top: 32px;
 }
+
+.navbar-gallery .wrap {
+	position: relative;
+}
+
+.subitems {
+	width: 681px;
+	height: 490px;
+	background-color: #FAFAFA;
+	border: solid 1px #F87400;
+	position: absolute;
+	left: 258px;
+	overflow: hidden;
+	display: none;
+}
+
+.subitems a:hover {
+	color: #F87400;
+}
+
+.subitems a {
+	color: #666;
+}
+
+.subitems .fore {
+	width: 100%;
+	overflow: hidden;
+	line-height: 32px;
+	font-size: 13px;
+}
+
+.subitems .fore-title {
+	position: relative;
+	float: left;
+	width: 70px;
+	padding: 8px 30px 0 0;
+	text-align: right;
+	font-weight: 700;
+}
+
+.subitems .fore-title i {
+	position: absolute;
+	top: 17px;
+	right: 18px;
+	width: 4px;
+	height: 14px;
+	font: 400 9px/14px consolas;
+}
+
+.subitems .fore-item {
+	width: 555px;
+	border-top: none;
+	float: left;
+	padding: 12px 0;
+}
+
+.subitems .fore-item a {
+	float: left;
+	padding: 0 8px;
+	margin: 4px 0;
+	line-height: 16px;
+	height: 16px;
+	border-left: 1px solid #e0e0e0;
+	white-space: nowrap;
+}
+
+.navbar-sort-detail li:hover {
+	background-color: #FAFAFA;
+	color: #F87400;
+	border: solid 1px #F87400;
+	border-right: none;
+	padding-right: 1px;
+	position: relative;
+	margin-right: -1px;
+	z-index: 1;
+}
+
+.items-hover{
+	background-color: #FAFAFA;
+	color: #F87400!important;
+	border: solid 1px #F87400;
+	border-right: none;
+	padding-right: 1px;
+	position: relative;
+	margin-right: -1px;
+	z-index: 1;
+}
