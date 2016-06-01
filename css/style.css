@@ -760,8 +760,6 @@ li {
 	cursor: pointer;
 }
 
-.slideBox .hd li.on{
+.slideBox .hd li.on {
 	opacity: 1;
 }
-
-

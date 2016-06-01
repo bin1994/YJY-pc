@@ -36,5 +36,8 @@ $(document).ready(function() {
 
 //首页图轮
 $(document).ready(function() {
-	$(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+	$(".slideBox").slide({
+		mainCell: ".bd ul",
+		autoPlay: true
+	});
 });
